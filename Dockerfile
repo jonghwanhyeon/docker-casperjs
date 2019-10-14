@@ -1,5 +1,7 @@
 FROM jonghwanhyeon/phantomjs
 
+LABEL maintainer="hyeon0145@gmail.com"
+
 ENV CASPERJS_VERSION 1.1.4-2
 
 RUN apt-get update && apt-get install -y \
